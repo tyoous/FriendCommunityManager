@@ -11,6 +11,7 @@ import javax.persistence.*;
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // 회원 번호
     private Long id;
 
     // 관리자 여부
